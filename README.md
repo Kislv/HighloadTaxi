@@ -148,10 +148,9 @@
 |25|127.78|52.78|
 
 **3. Логическая схем**
-TODO: add logicalscheme
+![LogicalDBScheme drawio](https://user-images.githubusercontent.com/85676494/201561935-63fa7481-03cb-4212-955d-c5543b16fab8.png)
 **4. Физическая схем**
-
-TODO: add physichalscheme
+![PhysicalDBSchema drawio](https://user-images.githubusercontent.com/85676494/201561961-e808edad-bf22-49d7-849d-236ba823cb04.png)
 
 Информация о водителях, машинах будет хранится в Tarantool, потому что их местоположение требуется часто обновлять, заказ часто меняет свой статус, поэтому он также вынесен в Tarantool.
 
@@ -187,8 +186,7 @@ client - индекс по id;
 |Nginx|балансировка нагрузки|широко распространенный, производительный веб-сервер, имеющий функции балансировщика L7|
 
 **6. Схема проекта**
-
-TODO: add projectscheme
+![InteractionScheme drawio](https://user-images.githubusercontent.com/85676494/201561980-d0c02fc7-1edc-40c3-b130-06f33c7005b6.png)
 
 **7. Список серверов**
 *Балансировщик + фронтенд*
